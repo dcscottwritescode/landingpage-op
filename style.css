@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    background-color: #171717;
+    background-color: #ffffff;
 }
 
 .header {
@@ -19,8 +19,7 @@ body {
 }
 
 .logo {
-    font-family: 'Fredoka One', cursive;
-    color: #ffffff;
+    width: 116px;
 }
 
 .links {
@@ -34,12 +33,29 @@ img {
     width: 400px;
 }
 
+.item {
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: flex;
+    padding: 16px;
+}
+
+.item, img {
+    width: 116px;
+}
+
+.item, p {
+    padding: 4px;
+}
+
 .quote {
     background-color: #ff8cb6;
 }
 
 .calltoaction {
-    
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 500px;
 }
 
 h2, h3, h4 {
@@ -57,5 +73,5 @@ li {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #171717;
 }
