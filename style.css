@@ -10,18 +10,21 @@ body {
     color: #171717;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin; 0;
 }
 
 .navbar {
     background-color: #ffffff;
+    border: 4px dotted #171717;
     display: flex;
+    flex-flow: column wrap;
     align-items: center;
-    justify-content: space-between;
+    padding: 8px 0 8px 0;
+    margin-bottom: 32px;
 }
 
-.header {
-    background-color: #ff8cb6;
-}
 
 .logo {
     width: 116px;
@@ -33,13 +36,22 @@ body {
     font-weight: 600;
 }
 
-.heading,
-img {
-    width: 400px;
+.content, h3 {
+    text-align: center;
+}
+
+.itembox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 5%;
+    padding-bottom: 7%;
 }
 
 .item {
     background-color: #ffffff;
+    border: 4px dotted #171717;
     border-radius: 50px;
     display: flex;
     padding: 16px;
@@ -47,20 +59,40 @@ img {
 
 .item, img {
     width: 116px;
-}
-
-.item, p {
-    padding: 4px;
+    display: flex;
+    align-items: center;
 }
 
 .quote {
     background-color: #ff8cb6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    gap: 8px;
+
 }
 
-.calltoaction {
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.ctacontainer {
     background-color: #ffffff;
-    border-radius: 16px;
-    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+}
+
+.heading {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
 }
 
 h2, h3, h4, h5 {
@@ -85,8 +117,10 @@ a {
 
 button {
     width: 116px;
-    color: #ff8cb6;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    color: #171717;
     background-color: #ffffff;
-    border: 2px dotted black;
+    border: 2px solid #ff8cb6;
     border-radius: 16px;
 }
