@@ -58,7 +58,7 @@ img {
     width: 500px;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -74,4 +74,12 @@ li {
 a {
     text-decoration: none;
     color: #171717;
+}
+
+button {
+    width: 116px;
+    color: #ff8cb6;
+    background-color: #ffffff;
+    border: 2px dotted black;
+    border-radius: 16px;
 }
