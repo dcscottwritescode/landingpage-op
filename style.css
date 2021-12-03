@@ -1,5 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Fredoka+One&family=Yanone+Kaffeesatz:wght@200&display=swap');
 
+html {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(./img/pink.jpg);
+    font-family: 'Amatic SC', cursive;
+    color: #171717;
+}
+
+.navbar {
+    background-color: #171717;
+}
+
+.header {
+    background-color: #ff8cb6;
+}
+
+.logo {
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+}
+
+.links {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.heading,
+img {
+    width: 400px;
+}
+
+.quote {
+    background-color: #ff8cb6;
+}
+
+.calltoaction {
+    
+}
+
+h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
