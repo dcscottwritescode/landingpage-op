@@ -6,7 +6,7 @@ html {
     box-sizing: border-box;
 }
 
-/* Background img, main font "Amatic SC", sets page height to 100vh */
+/* Background img, main font "Amatic SC", sets page height to 100vh. */
 body {
     background-image: url(./img/pink.jpg);
     font-family: 'Amatic SC', cursive;
@@ -17,7 +17,27 @@ body {
     margin: 0;
 }
 
-/* Style class for navigation bar located at very top of website */
+/* IMG & Style IDs */
+
+#deskimg {
+    width: 400px;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, 
+    inset 0px 10px 27px -8px #141414, 
+    inset 0px -10px 27px -8px #A31925, 1px 21px 23px 1px rgba(23,23,23,0.72); 
+    /*///////*/
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, 
+    inset 0px -10px 27px -8px #A31925, 1px 21px 23px 1px rgba(23,23,23,0.72);
+}
+
+#introheader {
+    background-color: #ffffff;
+    border: 4px dotted #171717;
+    padding: 16px;
+}
+
+/* MAIN PAGE/CLASSES: BEGINNING */ 
+
+/* Style class for navigation bar located at very top of website. */
 .navbar {
     background-color: #ffffff;
     border: 4px dotted #171717;
@@ -28,17 +48,42 @@ body {
     margin-bottom: 32px;
 }
 
-/* Sets  */
+/* Sets header logos width only. */
 .logo {
     width: 116px;
 }
 
+/* Style class for header links only. */
 .links {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 24px;
     font-weight: 600;
 }
 
+/* Flex Container for Intro Box */
+.introcontain {
+    display: flex;
+    background-color: #ff8cb6;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 36px;
+}
+
+.intro1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.introp {
+    width: 200px;
+}
+
+.intro2 {
+    display: flex;
+}
+
+/* Style class for h3 element within content class. One of the main classes. */
 .content, h3 {
     text-align: center;
     flex-grow: 1;
@@ -100,6 +145,10 @@ body {
     align-items: center;
 }
 
+/* MAIN PAGE: END */ 
+
+/* Element Styles !ONLY! */
+
 footer {
     flex-shrink: 0;
     flex-direction: column;
@@ -107,10 +156,13 @@ footer {
     padding-bottom: 16px;
 }
 
-h2, h3, h4, h5 {
+/* Main Headings Font */
+h1 ,h2, h3, h4, h5 {
     font-family: 'Bebas Neue', cursive;
 }
 
+
+/* Resets default link margin & padding due to list dots. Also sets flex display and 16px gap. */
 ul {
     padding: 0;
     margin: 0 16px;
@@ -118,13 +170,23 @@ ul {
     gap: 16px;
 }
 
+/* Gets rid of list dots. */
 li {
     list-style: none;
 }
 
+/* Gets rid of link underline, set link color to black. */
 a {
     text-decoration: none;
     color: #171717;
+}
+
+/* Anchor link (HEADER LINKS ONLY): HOVER Style */
+
+.hover:hover {
+    text-decoration: none;
+    background-color: #171717;
+    color: #ffffff;
 }
 
 button {
